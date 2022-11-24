@@ -1,5 +1,6 @@
 *{
-    margin:
+    font-family: Avenir, Roboto, Helvetica, sans-serif;
+    font-size: 100%;
 }
 header {
     display: flex;
@@ -8,19 +9,39 @@ header {
     padding: 1rem;
     justify-content: space-between;
     align-items: center;
+    margin: 1rem;
 }
 
 main {
     max-width: none;
+    margin: 1rem;
 }
 
-.grid {
+#topic {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.gridTop {
+    /* Nachschauen: Wie dynamisch 3- max. 6 Spalten festlegen? */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 1rem;
+   /*  font-family: Avenir, Roboto, Helvetica, sans-serif;
+    font-size: 100%; */
+    margin-bottom: rem;
+    margin: 4rem 6rem 4rem 6rem; 
+}
+
+.gridBottom {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(35%, 1fr));
     gap: 1rem;
     font-family: Avenir, Roboto, Helvetica, sans-serif;
     font-size: 80%;
-    margin: 1rem;
+    color: rgb(212, 154, 80);
+    background-color: rgb(3, 101, 13);
+    padding: 3rem;
 }
 
 .tuerchen {
@@ -29,4 +50,28 @@ main {
     border: 1px solid black;
     border-radius: 1rem;
     padding: 2rem;
+    text-align: center;
+}
+/* Ein Versuch Tuerchen 24 größer als die anderen darzustellen */
+.tuerchen24 {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 4rem;
+}
+
+.howdy {
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.picture {
+    margin-left: auto;
+    /* margin-right: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem; */
+    width: 100%;
+    max-width: max-content;
 }
