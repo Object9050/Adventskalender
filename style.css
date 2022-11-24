@@ -29,19 +29,25 @@ main {
     gap: 1rem;
    /*  font-family: Avenir, Roboto, Helvetica, sans-serif;
     font-size: 100%; */
-    margin-bottom: rem;
     margin: 4rem 6rem 4rem 6rem; 
+    /* Erstellt eine grid box um alle flex boxen */
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: rgb(163, 0, 0);
 }
 
 .gridBottom {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(35%, 1fr));
     gap: 1rem;
-    font-family: Avenir, Roboto, Helvetica, sans-serif;
-    font-size: 80%;
+    /* font-family: Avenir, Roboto, Helvetica, sans-serif;
+    font-size: 80%; */
+    text-align: justify;
     color: rgb(212, 154, 80);
     background-color: rgb(3, 101, 13);
     padding: 3rem;
+    border-radius: 1rem;
 }
 
 .tuerchen {
@@ -53,13 +59,13 @@ main {
     text-align: center;
 }
 /* Ein Versuch Tuerchen 24 größer als die anderen darzustellen */
-.tuerchen24 {
+/* .tuerchen24 {
     display: flex;
     flex-flow: column;
     border: 1px solid black;
     border-radius: 1rem;
     padding: 4rem;
-}
+} */
 
 .howdy {
     display: flex;
@@ -69,7 +75,7 @@ main {
 
 .picture {
     margin-left: auto;
-    /* margin-right: 3rem;
+   /*  margin-right: 3rem;
     margin-top: 3rem;
     margin-bottom: 3rem; */
     width: 100%;
