@@ -1,0 +1,32 @@
+*{
+    margin:
+}
+header {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    max-width: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 1rem;
+    font-family: Avenir, Roboto, Helvetica, sans-serif;
+    font-size: 80%;
+    margin: 1rem;
+}
+
+.tuerchen {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+}
