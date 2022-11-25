@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <button onclick="onButtonClickBurger()">BURGER</button>
+        <button>BURGER</button>
             <form>
                 <label for="dateSim">Tag eingeben</label>
                 <input type="input" id="dateSim" aria-describedby="dateSim">
@@ -20,10 +20,13 @@
         <h1>Wissens-Adventskalender</h1>
     </main>
     <main class="gridTop">
-        <a href="https://en.wikipedia.org/wiki/Special:Random">
+        
+        <a onmouseover="compareDates()" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
             <article class="tuerchen" id="dateTuer">1</article></a>
-        <article class="tuerchen">
-            2
+
+        <a onmouseover="compareDates24()" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+            <article class="tuerchen" id="dateTuer24">24</article></a>
+
         </article>
         <article class="tuerchen">
             3
@@ -89,7 +92,7 @@
             23
         </article>
         <article class="tuerchen">
-            24
+            2
         </article>
     </main>
 
