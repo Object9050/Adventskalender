@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Natur-Adventskalender | Jodie Sauer</title>
+    <title>Adventskalender | Jodie Sauer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <button>BURGER</button>
+        <button onclick="onButtonClickBurger()">BURGER</button>
             <form>
-                <input type="date" id="date" aria-describedby="date">
+                <label for="dateSim">Tag eingeben</label>
+                <input type="input" id="dateSim" aria-describedby="dateSim">
             </form>
         <picture>ICON</picture>
     </header>
     <main id="topic">
-        <h1>Natur-Adventskalender</h1>
+        <h1>Wissens-Adventskalender</h1>
     </main>
     <main class="gridTop">
         <a href="https://en.wikipedia.org/wiki/Special:Random">
-            <article class="tuerchen">
-            1 
-        </article></a>
+            <article class="tuerchen" id="dateTuer">1</article></a>
         <article class="tuerchen">
             2
         </article>
@@ -96,7 +95,7 @@
 
     <main class="gridBottom">
         <article class="howdy">
-            <h1>Howdy Sauer</h1>
+            <h1>Howdie Sauer</h1>
             <p>
                 Yeeehaaaa! Das war ein wilder Ritt durch die HTML-Steppe, vorbei an den CSS-Wasserfällen auf meinem treuen JavaScript-Ross.
             </p>
@@ -106,6 +105,7 @@
         </article>
         <img class="picture" src="./img/howdy1.jpg" alt="Howdy">
     </main>
+    <script src="code.js"></script>
     
 </body>
 </html>
