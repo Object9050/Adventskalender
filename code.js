@@ -1,3 +1,7 @@
+function onButtonClick(){
+    window.alert("Das hättest du wohl gerne ;-)");
+}
+
 function compareDates(){
 
 let dateSim = document.getElementById("dateSim").value;

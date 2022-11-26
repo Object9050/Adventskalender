@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"livePreview.defaultPreviewPath": "p:\\Dokumente\\Coding\\HTML, CSS, JavaScript\\04 JavaScript Game A\\indx.html"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
+	}
+}
