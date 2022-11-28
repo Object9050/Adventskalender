@@ -5,6 +5,9 @@
     padding:0;
 }
 
+* p{margin:8px}
+* h1{margin:8px}
+
 header {
     display: flex;
     border: 1px solid black;
@@ -13,6 +16,11 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 2rem;
+}
+
+img {
+    width: 32px;
+    height:auto;
 }
 
 #topic {
@@ -25,8 +33,6 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 2rem;
-   /*  font-family: Avenir, Roboto, Helvetica, sans-serif;
-    font-size: 100%; */
     margin: 4rem 2rem 4rem 2rem; 
     /* Erstellt eine grid box um alle flex boxen */
     border: 1px solid black;
@@ -48,9 +54,7 @@ header {
 .gridBottom {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
-    gap: 1rem;
-    /* font-family: Avenir, Roboto, Helvetica, sans-serif;
-    font-size: 80%; */
+    gap: 1.5rem;
     text-align: justify;
     color: rgb(212, 154, 80);
     background-color: rgb(3, 101, 13);
@@ -74,9 +78,6 @@ header {
 
 .picture {
     margin-left: auto;
-   /*  margin-right: 3rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem; */
     width: 100%;
     max-width: max-content;
     border-radius: 15rem;
