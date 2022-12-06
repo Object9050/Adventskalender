@@ -27,8 +27,10 @@ button {
 }
 
 input {
-    width: 1.5rem;
+    width: 1.4rem;
     border-radius: 0.5rem;
+    padding: 2px;
+    text-align:center;
 }
 
 img {
